@@ -1,1 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🏠 Resident Dashboard | Res. Solution</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="hero">
+
+<h1>🏠 Resident Dashboard</h1>
+
+<p>
+Report and track your maintenance problems
+</p>
+
+
+<a href="index.html">
+
+<button>
+🏠 Home
+</button>
+
+</a>
+
+</header>
+
+
+
+
+<main class="container">
+
+
+
+<!-- Report Issue Section -->
+
+<section class="welcome-card">
+
+
+<h2>📋 Report a Maintenance Problem</h2>
+
+
+
+<label>
+Resident Name
+</label>
+
+<br>
+
+<input type="text" placeholder="Enter your name">
+
+
+<br><br>
+
+
+
+<label>
+Flat Number
+</label>
+
+<br>
+
+<input type="text" placeholder="Example: B-402">
+
+
+<br><br>
+
+
+
+<label>
+Problem Category
+</label>
+
+<br>
+
+
+<select>
+
+<option>Choose Issue</option>
+
+<option>Plumbing</option>
+
+<option>Electrical</option>
+
+<option>Lift/Elevator</option>
+
+<option>Water Supply</option>
+
+<option>Cleaning</option>
+
+<option>Security</option>
+
+<option>Internet</option>
+
+<option>Other</option>
+
+</select>
+
+
+
+<br><br>
+
+
+
+
+<label>
+Describe Your Problem
+</label>
+
+<br>
+
+
+<textarea 
+rows="5"
+placeholder="Explain your problem here..."
+></textarea>
+
+
+
+<br><br>
+
+
+
+
+<label>
+Upload Problem Photo
+</label>
+
+<br>
+
+
+<input type="file">
+
+
+
+<br><br>
+
+
+
+<button onclick="submitComplaint()">
+
+📤 Submit Complaint
+
+</button>
+
+
+
+</section>
+
+
+
+
+
+<!-- Tracking Section -->
+
+
+<section class="card">
+
+
+<h2>📊 Track Progress</h2>
+
+
+<div class="card">
+
+
+<p>
+🎫 Complaint ID: RS001
+</p>
+
+
+<p>
+Status:
+<span>
+🟡 In Progress
+</span>
+</p>
+
+
+<p>
+Estimated Resolution Time:
+<strong>
+12–24 Hours
+</strong>
+</p>
+
+
+</div>
+
+
+
+<p>
+🔴 Not Started → 🟡 In Progress → 🟢 Completed
+</p>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+🏢 Res. Solution © 2026
+</p>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
+
+<script>
+
+
+function submitComplaint(){
+
+
+alert(
+"✅ Complaint Submitted Successfully!\n\nTicket ID: RS001\nEstimated Resolution Time: 12–24 Hours"
+);
+
+
+}
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
