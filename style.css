@@ -1,1 +1,223 @@
+/* Res. Solution Main Styling */
 
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+
+body{
+
+font-family:Arial, sans-serif;
+
+background:
+linear-gradient(135deg,#e8f5ff,#f5f7ff);
+
+color:#222;
+
+min-height:100vh;
+
+}
+
+
+
+
+/* Hero Section */
+
+.hero{
+
+text-align:center;
+
+padding:50px 20px;
+
+background:
+linear-gradient(135deg,#0066ff,#00c6ff);
+
+color:white;
+
+border-radius:0 0 30px 30px;
+
+}
+
+
+
+.hero h1{
+
+font-size:40px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.hero p{
+
+font-size:18px;
+
+margin:8px;
+
+}
+
+
+
+
+/* Container */
+
+.container{
+
+width:90%;
+
+max-width:900px;
+
+margin:30px auto;
+
+}
+
+
+
+
+/* Cards */
+
+.card,
+.welcome-card{
+
+background:white;
+
+padding:25px;
+
+margin:20px 0;
+
+border-radius:20px;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,0.1);
+
+text-align:center;
+
+}
+
+
+
+.card h2,
+.welcome-card h2{
+
+color:#0066ff;
+
+margin-bottom:15px;
+
+}
+
+
+
+
+/* Buttons */
+
+.button-group{
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+margin-top:25px;
+
+}
+
+
+
+button{
+
+padding:14px 25px;
+
+border:none;
+
+border-radius:30px;
+
+background:#0066ff;
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+
+button:hover{
+
+transform:scale(1.05);
+
+background:#004ecc;
+
+}
+
+
+
+
+a{
+
+text-decoration:none;
+
+}
+
+
+
+
+/* Footer */
+
+footer{
+
+text-align:center;
+
+padding:20px;
+
+background:#111;
+
+color:white;
+
+margin-top:40px;
+
+}
+
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+
+.hero p{
+
+font-size:16px;
+
+}
+
+
+button{
+
+width:90%;
+
+}
+
+
+}
